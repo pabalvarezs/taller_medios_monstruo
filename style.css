@@ -1,0 +1,18 @@
+.imgMonstruo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+/* 
+    vertical-align: middle;
+    align-content: center; */
+}
+.imgBasurero{
+    width: 10%;
+    margin-bottom: -20vh;
+    margin-left: 80vw;
+    height: 10%;
+/* 
+    vertical-align: middle;
+    align-content: center; */
+}

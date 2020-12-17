@@ -5,21 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taller Medios Monstruo</title>
     <link rel="stylesheet" href="inc/css/style.css">
-    <script></script>
+    <script type="text/javascript" src="inc/js/script.js"></script>    
 </head>
 <body>
     <div id="header">
-        <h1 class="titulo">Titulo</h1>
+        <h1 class="titulo">Taller de Medios</h1>
     </div>
     <div id="body">
         <br>
+        <!-- MONSTRUO -->
         <img draggable="false" class="imgMonstruo" src="img/monstruo3.png" alt="monstruo">
-        <img draggable="true" class="imgTapaMonstruo" src="img/tapa_monstruo.png" alt="tapa monstruo">        
+        <!-- IMAGENES SOBRE MONSTRUO -->
+        <img draggable="true" class="imgTapaMonstruo" id="objetoMovil1" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
+        <img draggable="true" class="imgTapaMonstruo" id="objetoMovil2" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">        
+        <img draggable="true" class="imgTapaMonstruo" id="objetoMovil3" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">        
+        <img draggable="true" class="imgTapaMonstruo" id="objetoMovil4" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">        
+        <img draggable="true" class="imgTapaMonstruo" id="objetoMovil5" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">        
+        <img draggable="true" class="imgTapaMonstruo" id="objetoMovil6" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">                
     </div>
     <div id="footer">
         <br>
         <br>
-        <img  draggable="false" class="imgBasurero" src="img/basurero.png" alt="monstruo">
+        <img  draggable="false" id="objetivoArrastre" class="imgBasurero" ondrop="drop(event, this)" ondragover="allowDrop(event)" src="img/basurero.png" alt="monstruo">
     </div>    
 </body>
 </html>

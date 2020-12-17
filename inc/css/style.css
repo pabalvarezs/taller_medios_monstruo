@@ -1,3 +1,6 @@
+.titulo{
+    text-align: center;
+}
 .imgMonstruo{
     display: flex;
     margin: auto;

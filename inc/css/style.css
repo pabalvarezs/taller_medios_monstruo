@@ -1,5 +1,6 @@
 .titulo{
     text-align: center;
+    text-decoration-color: aliceblue;
 }
 .imgMonstruo{
     display: flex;
@@ -23,5 +24,10 @@
     margin: auto;
     flex-grow: 1;
     cursor: move;
+}
+body  {
+    background-image: url(../../img/fondo.jpeg);
+    background-position: center;
+    /* border: 10px dashed black; */
 
 }

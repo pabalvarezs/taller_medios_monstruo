@@ -1,7 +1,6 @@
 .imgMonstruo{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    margin: auto;
     width: 30%;
 /* 
     vertical-align: middle;
@@ -15,4 +14,11 @@
 /* 
     vertical-align: middle;
     align-content: center; */
+}
+.imgTapaMonstruo{
+    width: 10%;
+    margin: auto;
+    flex-grow: 1;
+    cursor: move;
+
 }

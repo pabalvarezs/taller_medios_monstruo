@@ -20,7 +20,7 @@ function drop(event, target) {
         document.getElementById("monstruo").style.opacity = 1
     else
         document.getElementById("monstruo").style.opacity = 1-(1/contador)
-
-
-
 }
+
+var x = document.getElementById("myAudio"); 
+x.play(); 

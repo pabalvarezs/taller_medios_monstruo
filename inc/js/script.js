@@ -1,4 +1,11 @@
 // inicio script
+//funcion inicia audio
+var myadido = document.getElementById("audio");
+
+setTimeout(function() {
+myadido.play();
+
+},500);
 
 function drag(event) {
     event.dataTransfer.setData('Text/html', event.target.id); 
@@ -22,5 +29,3 @@ function drop(event, target) {
         document.getElementById("monstruo").style.opacity = 1-(1/contador)
 }
 
-// var x = document.getElementById("myAudio"); 
-// x.play(); 

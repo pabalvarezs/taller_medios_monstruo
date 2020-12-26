@@ -1,51 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">    
     <title>Taller Medios Monstruo</title>
     <link rel="stylesheet" href="inc/css/style.css">
     <script type="text/javascript" src="inc/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="header">             
-        <h1 class="titulo">Hola bebe, arrastra la basura al basurero...</h1>
-    </div>
-    <div id="body">
+    <div class="container-fluid" id="body">    
+        <div id="header " class="row">             
+            <h1 class="col-12 titulo">
+                Hola bebe, arrastra la basura al basurero...
+            </h1>
+        </div>
+        <div class="row"> 
+            <br>
+            <div class="col-3">
+                <br>
+            </div>
+            <div class="col-6 divConBackground ">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil1" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil2" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">        
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil3" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">        
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil4" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">        
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil5" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">        
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil6" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil7" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil8" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil9" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil10" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil11" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil12" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil13" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil14" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil15" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil16" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil17" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil18" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil19" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil20" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
+                <!-- <img draggable="false" id="monstruo" src="img/monstruo3.png">  -->        
+            </div>
+            <div class="col-3">
+                <img  class="imgBasurero float-left" draggable="false" id="objetivoArrastre" class="imgBasurero" ondrop="drop(event, this)" ondragover="allowDrop(event)" src="img/basurero.png" alt="monstruo">
+            </div>       
+        </div>
         <br>
-        <div class="divConBackground"> 
-            <img draggable="true" class="imgTapaMonstruo" id="objetoMovil1" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
-            <img draggable="true" class="imgTapaMonstruo" id="objetoMovil2" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">        
-            <img draggable="true" class="imgTapaMonstruo" id="objetoMovil3" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">        
-            <img draggable="true" class="imgTapaMonstruo" id="objetoMovil4" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">        
-            <img draggable="true" class="imgTapaMonstruo" id="objetoMovil5" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">        
-            <img draggable="true" class="imgTapaMonstruo" id="objetoMovil6" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
-            <img draggable="true" class="imgTapaMonstruo" id="objetoMovil7" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
-            <img draggable="true" class="imgTapaMonstruo" id="objetoMovil8" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
-            <img draggable="true" class="imgTapaMonstruo" id="objetoMovil9" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
-            <img draggable="true" class="imgTapaMonstruo" id="objetoMovil10" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
-            <img draggable="true" class="imgTapaMonstruo" id="objetoMovil11" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
-            <img draggable="true" class="imgTapaMonstruo" id="objetoMovil12" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
-            <img draggable="true" class="imgTapaMonstruo" id="objetoMovil13" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
-            <img draggable="true" class="imgTapaMonstruo" id="objetoMovil14" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
-            <img draggable="true" class="imgTapaMonstruo" id="objetoMovil15" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
-            <img draggable="true" class="imgTapaMonstruo" id="objetoMovil16" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
-            <img draggable="true" class="imgTapaMonstruo" id="objetoMovil17" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
-            <img draggable="true" class="imgTapaMonstruo" id="objetoMovil18" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
-            <img draggable="true" class="imgTapaMonstruo" id="objetoMovil19" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">
-            <img draggable="true" class="imgTapaMonstruo" id="objetoMovil20" ondragstart="drag(event)" src="img/tapa_monstruo.png" alt="tapa monstruo">    
-         </div>       
+        <div id="footer"></div>
+        <audio autoplay id="audio" controls>
+            <source src="sound/musica_fondo.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
+        </audio>
     </div>
-    <br>
-    <div id="footer">
-        <br>
-        <br>
-        <img  draggable="false" id="objetivoArrastre" class="imgBasurero" ondrop="drop(event, this)" ondragover="allowDrop(event)" src="img/basurero.png" alt="monstruo">
-    </div>
-    <audio autoplay id="audio" controls>
-        <source src="sound/musica_fondo.ogg" type="audio/ogg">
-        Your browser does not support the audio element.
-    </audio>
     
 </body>
 

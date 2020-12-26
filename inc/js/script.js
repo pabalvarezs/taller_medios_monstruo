@@ -27,10 +27,16 @@ function drop(event, target) {
     document.getElementById(data).style.visibility="hidden";
     console.log(contador);
     contador += 1;
-    // if (contador>20)
-    //     document.getElementById("monstruo").style.opacity = 1
-    // else
-    //     document.getElementById("monstruo").style.opacity = 1-(1/contador)
+    if (contador>20){
+        document.getElementById("divMonstruo").style.opacity = 1;
+        console.log(document.getElementById("divMonstruo"));
+    }        
+    else{
+        document.getElementById("divMonstruo")
+        console.log(document.getElementById("divMonstruo"));
+
+    }
+        document.getElementById("divMonstruo").style.opacity = 1-(1/contador)
     var audio = document.getElementById("botarAudio");
     audio.currentTime = 2;
     audio.play();

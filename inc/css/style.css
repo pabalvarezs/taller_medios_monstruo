@@ -45,6 +45,7 @@
     /* background-color: black; */
     background-repeat: no-repeat;
     background-size: 100%;    
+    opacity: 0.4; 
 }
 #botarAudio{
     display: none

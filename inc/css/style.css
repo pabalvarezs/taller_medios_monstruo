@@ -24,6 +24,7 @@
 }
 .imgTapaMonstruo{
     width: 10%;
+    border: 4px dotted black;
 }
 #body  {
     background-image: url(../../img/fondos/fondo_primeraparte.jpg);
@@ -44,7 +45,7 @@
     /* background-color: black; */
     background-repeat: no-repeat;
     background-size: 100%;    
-    opacity: 0.4; 
+    /* opacity: 0.4;  */
     margin-top: 0vh;
     margin-left: 10vw;
 }

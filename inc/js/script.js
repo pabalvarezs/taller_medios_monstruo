@@ -1,12 +1,4 @@
 // inicio script
-//funcion inicia audio
-// var myadido = document.getElementById("audio");
-
-// setTimeout(function() {
-// myadido.play();
-
-// },500);
-
 
 
 

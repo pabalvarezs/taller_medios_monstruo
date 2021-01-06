@@ -45,10 +45,10 @@
 /* CARABINEROS */
 .posicion2{
     position: absolute;
-    margin-top: 43vh;
-    margin-left: 5vw;
-    width: 15vw;
-    height: 20vh;
+    margin-top: 37vh;
+    margin-left: 4vw;
+    width: 18vw;
+    height: 15vh;
 }
 /* CENSURA */
 .posicion3{
@@ -70,17 +70,17 @@
 .posicion5{
     position: absolute;
     margin-top: 8vh;
-    margin-left: 38vw;
-    width: 8vw;
-    height: 20vh;
+    margin-left: 37vw;
+    width: 12vw;
+    height: 24vh;
 }
 /* DESAPARECIDOS */
 .posicion6{
     position: absolute;
     margin-top: 30vh;
     margin-left: 7vw;
-    width: 18;
-    height: 33vh;
+    width: 20;
+    height: 35vh;
 }
 /* HABITAT */
 .posicion7{
@@ -125,7 +125,7 @@
 /* MEGA */
 .posicion12{
     position: absolute;
-    margin-top: 48vh;
+    margin-top: 52vh;
     margin-left: 13vw;
     width: 15vw;
     height: 15vh;
@@ -165,7 +165,7 @@
 /* PENSION */
 .posicion17{
     position: absolute;
-    margin-top: 1vh;
+    margin-top: 2vh;
     margin-left: 42vw;
     width: 20vw;
     height: 30vh;
@@ -190,7 +190,7 @@
 .posicion20{
     position: absolute;
     margin-top: 5vh;
-    margin-left: 25vw;
+    margin-left: 28vw;
     width: 20vw;
     height: 20vh;
 }
@@ -198,9 +198,9 @@
 .posicion21{
     position: absolute;
     margin-top: 51vh;
-    margin-left: 4vw;
-    width: 15vw;
-    height: 15vh;
+    margin-left: 2vw;
+    width: 16vw;
+    height: 20vh;
 }
 /* SABADO */
 .posicion22{
@@ -221,7 +221,7 @@
 /* TORNIQUETE */
 .posicion24{
     position: absolute;
-    margin-top: -6vh;
+    margin-top: -4.5vh;
     margin-left: 25vw;
     width: 20vw;
     height: 20vh;
@@ -245,7 +245,7 @@
 
 
 #body  {
-    background-image: url(../../img/fondos/fondo_primeraparte.jpg);
+    background-image: url(../../img/fondos/fondo_primeraparte.webp);
     background-repeat: no-repeat;
     /* background-position: center; */
 }

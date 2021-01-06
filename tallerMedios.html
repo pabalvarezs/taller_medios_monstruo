@@ -9,12 +9,12 @@
     <script type="text/javascript" src="inc/js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </head>
-<body>
+<body id="body">
     <audio id="botarAudio" controls> 
         <source src="sound/botarBasura.wav" type="audio/wav">
         Your browser does not support the audio element.
     </audio>
-    <div class="container-fluid" id="body"> 
+    <div class="container"> 
         <br>   
         <div class="row ">             
             <h1 class="col-9 titulo">
@@ -26,47 +26,38 @@
                     <source src="sound/musica_fondo.ogg" type="audio/ogg">
                     Your browser does not support the audio element.
                 </audio>
-            </div>
+            </div>  
             <div class="col-1"></div>
         </div>        
         <div class="row"> 
             <br>
             <div class="col-12 divConBackground" id="divMonstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil1" ondragstart="drag(event)" src="img/basura_monstruo/13.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil2" ondragstart="drag(event)" src="img/basura_monstruo/carabiyeah.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil3" ondragstart="drag(event)" src="img/basura_monstruo/caribidead.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil4" ondragstart="drag(event)" src="img/basura_monstruo/censura.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil5" ondragstart="drag(event)" src="img/basura_monstruo/constitucion.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil6" ondragstart="drag(event)" src="img/basura_monstruo/costanera center 1.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil7" ondragstart="drag(event)" src="img/basura_monstruo/costanera center.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil8" ondragstart="drag(event)" src="img/basura_monstruo/delincuentes 1.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil9" ondragstart="drag(event)" src="img/basura_monstruo/delincuentes 2.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil10" ondragstart="drag(event)" src="img/basura_monstruo/desap.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil11" ondragstart="drag(event)" src="img/basura_monstruo/estatua baquedano s.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil12" ondragstart="drag(event)" src="img/basura_monstruo/estatua baquedano.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil13" ondragstart="drag(event)" src="img/basura_monstruo/habitat.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil14" ondragstart="drag(event)" src="img/basura_monstruo/la segunda.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil15" ondragstart="drag(event)" src="img/basura_monstruo/luksic.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil16" ondragstart="drag(event)" src="img/basura_monstruo/mascarilla 2.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil17" ondragstart="drag(event)" src="img/basura_monstruo/mascarilla 4 she.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil18" ondragstart="drag(event)" src="img/basura_monstruo/mega.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil19" ondragstart="drag(event)" src="img/basura_monstruo/mercurio.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil20" ondragstart="drag(event)" src="img/basura_monstruo/miini.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil21" ondragstart="drag(event)" src="img/basura_monstruo/morande.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil22" ondragstart="drag(event)" src="img/basura_monstruo/pacos.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil23" ondragstart="drag(event)" src="img/basura_monstruo/paraiso.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil24" ondragstart="drag(event)" src="img/basura_monstruo/pension.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil25" ondragstart="drag(event)" src="img/basura_monstruo/presos.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil26" ondragstart="drag(event)" src="img/basura_monstruo/psy.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil27" ondragstart="drag(event)" src="img/basura_monstruo/sabado.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil28" ondragstart="drag(event)" src="img/basura_monstruo/senafr.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil29" ondragstart="drag(event)" src="img/basura_monstruo/torni 1.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil30" ondragstart="drag(event)" src="img/basura_monstruo/torni 2.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil31" ondragstart="drag(event)" src="img/basura_monstruo/torni 3.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil32" ondragstart="drag(event)" src="img/basura_monstruo/torni 5.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil33" ondragstart="drag(event)" src="img/basura_monstruo/tvn.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil34" ondragstart="drag(event)" src="img/basura_monstruo/WIP GUANACO1.png" alt="tapa monstruo">
-                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil35" ondragstart="drag(event)" src="img/basura_monstruo/pino.png" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo posicion1" id="objetoMovil1" ondragstart="drag(event)" src="img/basura_monstruo/13.webp" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil2" ondragstart="drag(event)" src="img/basura_monstruo/carabineros.webp" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil3" ondragstart="drag(event)" src="img/basura_monstruo/censura.webp" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil4" ondragstart="drag(event)" src="img/basura_monstruo/constitución.webp" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil5" ondragstart="drag(event)" src="img/basura_monstruo/costanera_center.webp" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil6" ondragstart="drag(event)" src="img/basura_monstruo/desaparecidos.webp" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil7" ondragstart="drag(event)" src="img/basura_monstruo/habitat.webp" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil8" ondragstart="drag(event)" src="img/basura_monstruo/mascarilla_rosada.webp" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil9" ondragstart="drag(event)" src="img/basura_monstruo/la_segunda.webp" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil10" ondragstart="drag(event)" src="img/basura_monstruo/luksic.webp" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil11" ondragstart="drag(event)" src="img/basura_monstruo/mascarilla.webp" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil12" ondragstart="drag(event)" src="img/basura_monstruo/mega.webp" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil13" ondragstart="drag(event)" src="img/basura_monstruo/ministerio.webp" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil14" ondragstart="drag(event)" src="img/basura_monstruo/mercurio.webp" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil15" ondragstart="drag(event)" src="img/basura_monstruo/morande.webp" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil16" ondragstart="drag(event)" src="img/basura_monstruo/pacos.webp" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil17" ondragstart="drag(event)" src="img/basura_monstruo/pensión.webp" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil18" ondragstart="drag(event)" src="img/basura_monstruo/pinocho.webp" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil19" ondragstart="drag(event)" src="img/basura_monstruo/piñera.webp" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil120" ondragstart="drag(event)" src="img/basura_monstruo/presos.webp" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil121" ondragstart="drag(event)" src="img/basura_monstruo/psu.webp" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil122" ondragstart="drag(event)" src="img/basura_monstruo/sabado.webp" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil123" ondragstart="drag(event)" src="img/basura_monstruo/semaforo.webp" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil125" ondragstart="drag(event)" src="img/basura_monstruo/tornikete.webp" alt="tapa monstruo">
+                <img draggable="true" class="imgTapaMonstruo" id="objetoMovil126" ondragstart="drag(event)" src="img/basura_monstruo/estatua_baquedano.webp" alt="tapa monstruo">
+
             </div>     
         </div>
         <div class="row">

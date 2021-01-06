@@ -20,10 +20,17 @@
     margin-right: 75rem;
 }
 .imgBasurero{
-    width: 20%;
-    display: block;
+    width: 12%;
+    position: absolute;
     margin-left: 30vw;
     margin-right: auto;
+}
+.fuego{
+    position: absolute;
+    visibility: visible;
+    width: 11vw;
+    margin-top: -12.8vh;
+    margin-left: 30.4vw;
 }
 .imgTapaMonstruo{
     /* width: 15vw;

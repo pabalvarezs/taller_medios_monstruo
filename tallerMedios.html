@@ -10,19 +10,26 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </head>
 <body id="body">
-    <audio id="botarAudio" controls> 
+    <!-- ARCHIVOS AUDIO + VIDEO + GIFTS -->
+    <!-- AUDIO BASURA -->
+    <audio  id="botarAudio" controls> 
         <source src="sound/botarBasura.wav" type="audio/wav">
         Your browser does not support the audio element.
     </audio>
-    <div class="container"> 
+    <!-- VIDEO FIN BOTAR BASURA -->
+    <img id="video_botar_basura" class="oculto" src="img/fondos/fondo_segundaparte.gif" alt="animacion_monstruo" draggable="false">
+    <!-- CONTENEDOR DEL SITIO -->
+    <div id="contenedor_paginaweb" class="container-fluid"> 
         <br>   
-        <div class="row ">             
-            <h1 class="col-9 titulo">
-                 Hola bebe, arrastra la basura al basurero...
-            </h1>
+        <div class="row ">
+            <div class="col-9">
+                <h1 class="titulo">
+                    Hola bebe, arrastra la basura al basurero...
+                </h1>
+            </div>
             <div class="col-2" >
                 <br>
-                <audio autoplay loop id="audio" controls>
+                <audio class="panelAudio" autoplay loop id="audio" controls>
                     <source src="sound/musica_fondo.ogg" type="audio/ogg">
                     Your browser does not support the audio element.
                 </audio>
@@ -57,7 +64,6 @@
                 <img draggable="true" class="imgTapaMonstruo posicion24" id="objetoMovil124" ondragstart="drag(event)" src="img/basura_monstruo/tornikete.webp" alt="tapa monstruo">
                 <img draggable="true" class="imgTapaMonstruo posicion25" id="objetoMovil125" ondragstart="drag(event)" src="img/basura_monstruo/estatua_baquedano.webp" alt="tapa monstruo">
                 <img draggable="true" class="imgTapaMonstruo posicion26" id="objetoMovil126" ondragstart="drag(event)" src="img/basura_monstruo/delincuentes.webp" alt="tapa monstruo">
-
             </div>     
         </div>
         <div class="row">
@@ -68,7 +74,6 @@
             </div>  
         </div>
         <br>
-
     </div>    
 </body> 
 </html>

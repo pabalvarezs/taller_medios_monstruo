@@ -19,9 +19,24 @@ function drop(event, target) {
     document.getElementById(data).style.visibility="hidden";
     console.log(contador);
     contador += 1;
-    if (contador>20){
-        // document.getElementById("divMonstruo").style.opacity = 1;
-        // console.log(document.getElementById("divMonstruo"));
+    if (contador==3){
+        // ESCONDEMOS LOS OBJETOS DE LA PAG PARA MOSTRA VIDEO
+        var x = document.getElementById("contenedor_paginaweb");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+        // MOSTRAMOS VIDEO DEL MONSTRUO
+        // let imgFondo = new Image;
+        // imgFondo.src ='img/fondos/fondo_segundaparte.gif'
+        // var div = document.getElementById("contenedor_paginaweb");
+        // div.style.backgroundImage = url('imgFondo.src');
+        // document.getElementById("video_botar_basura").style.visibility="visible";
+        // document.getElementById("video_botar_basura").style.display="block";
+        // document.getElementById("video_botar_basura").className = "mostrar";
+        // document.getElementById("video_botar_basura").classList.add('mostrar');
+        // document.getElementById("video_botar_basura").classList.remove('oculto');   
     }        
     else{
         // document.getElementById("divMonstruo")

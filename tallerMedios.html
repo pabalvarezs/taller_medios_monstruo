@@ -12,14 +12,29 @@
 <body id="body">
     <!-- ARCHIVOS AUDIO + VIDEO + GIFTS -->
     <!-- AUDIO BASURA -->
-    <audio  id="botarAudio" controls> 
+    <audio  class="audioOculto" id="botarAudio" controls> 
         <source src="sound/botarBasura.wav" type="audio/wav">
         Your browser does not support the audio element.
     </audio>
+    <!-- AUDIO BASURA ELIMINADA -->
+    <audio  class="audioOculto" id="basuraEliminada" controls> 
+        <source src="sound/well_done.wav" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+    <!-- AUDIO PARTE 2 -->
+    <audio  class="audioOculto" id="audioParte2" controls> 
+        <source src="sound/audio_parte_2.wav" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>      
     <!-- VIDEO FIN BOTAR BASURA -->
-    <img id="video_botar_basura" class="oculto" src="img/fondos/fondo_segundaparte.gif" alt="animacion_monstruo" draggable="false">
+    <div class="row"><br></div>
+    <div class="row">
+        <div class="col-12">
+            <img id="video_botar_basura" class="oculto" src="img/fondos/fondo_segundaparte.gif" alt="animacion_monstruo" draggable="false">
+        </div>
+    </div>
     <!-- CONTENEDOR DEL SITIO -->
-    <div id="contenedor_paginaweb" class="container-fluid"> 
+    <div id="contenedor_paginaweb" class="container-fluid" onclick="botonMonstruoLimpio()"> 
         <br>   
         <div class="row ">
             <div class="col-9">

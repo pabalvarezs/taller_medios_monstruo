@@ -277,20 +277,28 @@
     /* margin-top: 0vh;
     margin-left: 3vw; */
 }
-#botarAudio{
+.cursor{
+    cursor: url(../../img/cursor.png), pointer;
+}
+.audioOculto{
     display: none
 }
 .mostrar{
     visibility: visible;
     display: block;
-    opacity: 1;
-    transition: all 1s;
 }
 .oculto{
     visibility: hidden;
     display: none;
-    opacity: 0;
 }
+#video_botar_basura{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    margin-left: 10vw;
+    margin-top: 10vh;
+}
+
 
 
     

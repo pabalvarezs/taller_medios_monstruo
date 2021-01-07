@@ -37,7 +37,7 @@ function drop(event, target) {
     document.getElementById(data).style.visibility="hidden";
     console.log(contador);
     contador += 1;
-    if (contador==5){
+    if (contador==26){
         habilitarAnimacion = true;
         // CAMBIOS DE AUDIO 
         // REPRODUCIOMOS EFECTO TODA LA BASURA ELIMINADA

@@ -30,11 +30,13 @@
     <div class="row"><br></div>
     <div class="row">
         <div class="col-12">
-            <img id="video_botar_basura" class="oculto" src="img/fondos/fondo_segundaparte.gif" alt="animacion_monstruo" draggable="false">
+            <a href="/tallerMedios2.html">
+                <img id="video_botar_basura" class="oculto" src="img/fondos/fondo_segundaparte.gif" alt="animacion_monstruo" draggable="false">
+            </a>
         </div>
     </div>
     <!-- CONTENEDOR DEL SITIO -->
-    <div id="contenedor_paginaweb" class="container-fluid" onclick="botonMonstruoLimpio()"> 
+    <div id="contenedor_paginaweb" class="container-fluid"> 
         <br>   
         <div class="row ">
             <div class="col-9">
@@ -53,7 +55,7 @@
         </div>        
         <div class="row"> 
             <br>
-            <div class="col-12 divConBackground" id="divMonstruo">
+            <div class="col-12 divConBackground" id="divMonstruo" onclick="botonMonstruoLimpio()">
                 <img draggable="true" class="imgTapaMonstruo posicion1" id="objetoMovil1" ondragstart="drag(event)" src="img/basura_monstruo/13.webp" alt="tapa monstruo">
                 <img draggable="true" class="imgTapaMonstruo posicion2" id="objetoMovil2" ondragstart="drag(event)" src="img/basura_monstruo/carabineros.webp" alt="tapa monstruo">
                 <img draggable="true" class="imgTapaMonstruo posicion3" id="objetoMovil3" ondragstart="drag(event)" src="img/basura_monstruo/censura.webp" alt="tapa monstruo">

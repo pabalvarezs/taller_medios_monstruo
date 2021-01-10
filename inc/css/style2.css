@@ -48,5 +48,38 @@
     padding: 2rem;
     font-size: 1.3rem;
 }
+/* EFECTO ZOOM MONSTRUO FINAL */
 
+.monstruo { 
+    /* margin:60px 0;  */
+    margin-top: 12vh;
+    margin-left: 18vw;
+    width: 63vw; 
+}
+.zoom{
+    transform-origin: x-axis y-axis;
+	transition: 1.5s ease;
+	-moz-transition: 1.5s ease; /* Firefox */
+	-webkit-transition: 1.5s ease; /* Chrome - Safari */
+    -o-transition: 1.5s ease; /* Opera */
+    position: absolute;
 
+}
+.zoom:hover{
+	transform : scale(3);
+	-moz-transform : scale(3); /* Firefox */
+	-webkit-transform : scale(3); /* Chrome - Safari */
+	-o-transform : scale(3); /* Opera */
+	-ms-transform : scale(3); /* IE9 */
+}
+#drawing {
+    position:absolute;
+    top:50px;
+    left:50px;
+    z-index: 0;
+    background: blue url(http://catmacros.files.wordpress.com/2009/09/cats_banzai.jpg) no-repeat;
+    background-position: 50% 50%;
+    width:500px;
+    height:350px;
+    overflow:none;
+}

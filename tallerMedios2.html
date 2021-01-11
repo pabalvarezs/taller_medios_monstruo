@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="inc/css/style2.css">
     <script type="text/javascript" src="inc/js/script2.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 </head>
 <body id="body">
     <!-- ARCHIVOS AUDIO + VIDEO + GIFTS -->    
@@ -37,8 +36,55 @@
                 <img class="monstruo zoom" id="monstruo"  src="img/monstruo.webp"/>
             </div>            
         </div>
-    </div>
-
-    
+        <div class="obras">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item" id="obra1">
+                  <h2 class="accordion-header" id="headingObra1">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#colpasable1" aria-expanded="true" aria-controls="collapseOne">
+                      Obra #1
+                    </button>
+                  </h2>
+                  <div id="colpasable1" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p class="tituloContenidoObra">Contenido Obra 1</p>
+                        <br>
+                        <button type="button" class="btn btn-outline-success">Success</button>
+                        <br>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item" id="obra2">
+                    <h2 class="accordion-header" id="headingObra2">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#colpasable2" aria-expanded="true" aria-controls="collapseOne">
+                        Obra #2
+                      </button>
+                    </h2>
+                    <div id="colpasable2" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                          <p class="tituloContenidoObra">Contenido Obra 2</p>
+                          <br>
+                          <button type="button" class="btn btn-outline-success">Success</button>
+                          <br>
+                      </div>
+                    </div>
+                </div>
+                <div class="accordion-item" id="obra3">
+                    <h2 class="accordion-header" id="headingObra3">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#colpasable3" aria-expanded="true" aria-controls="collapseOne">
+                        Obra #3
+                      </button>
+                    </h2>
+                    <div id="colpasable3" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                          <p class="tituloContenidoObra">Contenido Obra 3</p>
+                          <br>
+                          <button type="button" class="btn btn-outline-success">Success</button>
+                          <br>
+                      </div>
+                    </div>
+                </div>
+            </div>       
+        </div>
+    </div>    
 </body> 
 </html>

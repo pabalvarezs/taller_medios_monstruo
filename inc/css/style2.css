@@ -75,3 +75,7 @@
 	-o-transform : scale(3); /* Opera */
 	-ms-transform : scale(3); /* IE9 */
 }
+.obra{
+    position: absolute;
+
+}

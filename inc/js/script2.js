@@ -2,7 +2,7 @@
 // ABRIMOS LOS POPUP`S
 // DEFINIMOS TIEMPO RETRASO ABRIR VENTANAS EN MS
 const tiempo_retraso_ventana = 1000;
-const tiempo_retraso_monstruo = 3000;
+const tiempo_retraso_monstruo = 0; //3000
 
 function abrir_ventanas_retraso(){
     setTimeout(function abrir_ventanas(url){
@@ -12,7 +12,7 @@ function abrir_ventanas_retraso(){
         let myWindow4 = window.open( "popup4.html", "popup4", "width=565,height=488, top=800,left=500, menubar=no, scrollbars=no, resizable=no");
     },tiempo_retraso_ventana);
 }
-abrir_ventanas_retraso();
+// abrir_ventanas_retraso();
 
 // FUNCION MOSTRAR MONSTRUO CON RETRASO
 function mostrarMonstruoRetraso(){
@@ -22,3 +22,14 @@ function mostrarMonstruoRetraso(){
 }
 //MUESTRA EL MONSTRUO CON RETRASO
 mostrarMonstruoRetraso();
+// INCIALIZO LOS POPOVERS
+var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})
+var popover = new bootstrap.Popover(document.querySelector('.example-popover'), {
+    container: 'body'
+})
+$("[data-toggle=popover]").popover();
+  
+

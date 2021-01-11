@@ -31,12 +31,12 @@
         <br>
         <br>
         <br>
-        <div class="row" onmouseover="mostrarObrasRetraso()">
+        <div class="row" onmouseover="mostrarObrasRetraso()" onmouseout="ocultarObras()">
             <div class="col-12" >
                 <img class="monstruo zoom" id="monstruo"  src="img/monstruo.webp"/>
             </div>            
         </div>
-        <div id="divObras" style="visibility: hidden;">
+        <div id="divObras" style="visibility: hidden;" onmouseover="fnOnClickObras()" onmouseout="fnOutClickOBras()">
             <div class="accordion accordion-flush" id="obras">
                 <div class="accordion-item" id="obra1">
                   <h2 class="accordion-header" id="headingObra1">

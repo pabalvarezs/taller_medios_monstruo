@@ -3,7 +3,8 @@
 // DEFINIMOS TIEMPO RETRASO ABRIR VENTANAS EN MS
 const tiempo_retraso_ventana = 1000;
 const tiempo_retraso_monstruo = 0; //3000
-const tiempo_retraso_obras = 5000; //1500
+const tiempo_retraso_obras = 1400; //1500
+var onclickObras = false;
 
 
 function abrir_ventanas_retraso(){
@@ -15,7 +16,20 @@ function abrir_ventanas_retraso(){
     },tiempo_retraso_ventana);
 }
 // abrir_ventanas_retraso();
+// FUNCION MUESTRA MOSNTRUO
+function mostrarObras(){
+    document.getElementById("divObras").style.visibility="visible";
+    document.getElementById("monstruo").className = "zoom";
 
+}
+function fnOnClickObras(){
+    onclickObras = true;
+    document.getElementById("divObras").style.visibility="visible";
+}
+function fnOutClickOBras(){
+    onclickObras = false;
+    document.getElementById("divObras").style.visibility="hidden";
+}
 // FUNCION MOSTRAR MONSTRUO CON RETRASO
 function mostrarMonstruoRetraso(){
     setTimeout(function mostrarMonstruo(){
@@ -29,6 +43,17 @@ function mostrarObrasRetraso(){
     setTimeout(function mostrarObras(){
         document.getElementById("divObras").style.visibility="visible";
     },tiempo_retraso_obras);    
+}
+// OCULTA OBRAS CUANDO MOUSE NO ESTA SOBRE MONSTRUO
+
+function ocultarObras(){
+    if (onclickObras==false){
+        document.getElementById("divObras").style.visibility="hidden";
+        console.log("SE OCULTO OBRAS");
+    }
+    else{
+        console.log("NO SE OCULTO OBRAS");
+    }
 }
 //MUESTRA EL OBRAS CON RETRASO
 // mostrarObrasRetraso();

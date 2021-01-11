@@ -75,4 +75,12 @@
 	-o-transform : scale(3); /* Opera */
 	-ms-transform : scale(3); /* IE9 */
 }
+.zoomManter{
+    transform : scale(3);
+    transform-origin: 70% 60%;
+	-moz-transform : scale(3); /* Firefox */
+	-webkit-transform : scale(3); /* Chrome - Safari */
+	-o-transform : scale(3); /* Opera */
+	-ms-transform : scale(3); /* IE9 */
+}
 

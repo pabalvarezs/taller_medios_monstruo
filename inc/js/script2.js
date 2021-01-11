@@ -19,16 +19,15 @@ function abrir_ventanas_retraso(){
 // FUNCION MUESTRA MOSNTRUO
 function mostrarObras(){
     document.getElementById("divObras").style.visibility="visible";
-    document.getElementById("monstruo").className = "zoom";
-
 }
 function fnOnClickObras(){
     onclickObras = true;
     document.getElementById("divObras").style.visibility="visible";
+    document.getElementById("monstruo").classList.add("zoomManter");
 }
 function fnOutClickOBras(){
     onclickObras = false;
-    document.getElementById("divObras").style.visibility="hidden";
+    // document.getElementById("divObras").style.visibility="hidden";
 }
 // FUNCION MOSTRAR MONSTRUO CON RETRASO
 function mostrarMonstruoRetraso(){

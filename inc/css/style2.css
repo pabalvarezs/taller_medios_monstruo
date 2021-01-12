@@ -55,8 +55,7 @@
     margin-top: 12vh;
     margin-left: 18vw;
     width: 63vw;
-    visibility: hidden;
-     
+    visibility: hidden;     
 }
 .zoom{
     transform-origin: x-axis y-axis;
@@ -65,7 +64,6 @@
 	-webkit-transition: 1.5s ease; /* Chrome - Safari */
     -o-transition: 1.5s ease; /* Opera */
     position: absolute;
-
 }
 .zoom:hover{
     transform : scale(3);
@@ -83,4 +81,25 @@
 	-o-transform : scale(3); /* Opera */
 	-ms-transform : scale(3); /* IE9 */
 }
+.cardObra1{
+    position: absolute;
+    margin-top: 3vh;
+    margin-left: 18vw;
+}
+.cardObra2{
+    position: absolute;
+    margin-top: 16vh;
+    margin-left: 33vw;
+}
+.cardObra3{
+    position: absolute;
+    margin-top: 26vh;
+    margin-left: 48vw;
+}
+.cardObra4{
+    position: absolute;
+    margin-top: 36vh;
+    margin-left: 63vw;
+}
+
 

@@ -2,7 +2,7 @@
 // ABRIMOS LOS POPUP`S
 // DEFINIMOS TIEMPO RETRASO ABRIR VENTANAS EN MS
 const tiempo_retraso_ventana = 1000;
-const tiempo_retraso_monstruo = 0; //3000
+const tiempo_retraso_monstruo = 3000; //3000
 const tiempo_retraso_obras = 1400; //1500
 var onclickObras = false;
 
@@ -15,7 +15,7 @@ function abrir_ventanas_retraso(){
         let myWindow4 = window.open( "popup4.html", "popup4", "width=565,height=488, top=800,left=500, menubar=no, scrollbars=no, resizable=no");
     },tiempo_retraso_ventana);
 }
-// abrir_ventanas_retraso();
+abrir_ventanas_retraso();
 // FUNCION MUESTRA MOSNTRUO
 function mostrarObras(){
     document.getElementById("divObras").style.visibility="visible";

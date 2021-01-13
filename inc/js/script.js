@@ -9,9 +9,10 @@ function botonMonstruoLimpio(){
         } else {
             x.style.display = "none";
         }
-        // MOSTRAMOS ANIMACION
+        // MOSTRAMOS ANIMACION MONSTRUO
         document.getElementById("video_botar_basura").className = "mostrar";
-        document.getElementById("")
+        // MOSTRAMOS ANIMACION DINERO CAE
+        document.getElementById("dineroCae").className = "mostrar";
         // REPRODUCIMOS AUDIO
         let audio3 = document.getElementById("audioParte2");
         audio3.play();

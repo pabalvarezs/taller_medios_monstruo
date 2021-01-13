@@ -39,7 +39,7 @@ function drop(event, target) {
     var data = event.dataTransfer.getData("text/html"); 
     // console.log(target.id, event.target.id) 
     document.getElementById(data).style.visibility="hidden";
-    console.log(contador);
+    // console.log(contador);
     contador += 1;
     if (contador>=4){
         habilitarAnimacion = true;
@@ -71,11 +71,11 @@ function clickMonstruoPiñera(){
         setTimeout(function dieneroDesaparece(){
             document.getElementById("dineroCae").className = "oculto";
         },tiempoMostrarDinero);
-        console.log(cantidadClickMonstruoPiñera);
+        // console.log(cantidadClickMonstruoPiñera);
+        cantidadClickMonstruoPiñera += 1;
     }
     else{
-        let myWindow = window.open("", "_self");
-        myWindow.open(tallerMedios2.html);
+        window.location.href="tallerMedios2.html";
         // href="tallerMedios2.html
     }
 

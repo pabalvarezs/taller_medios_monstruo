@@ -302,8 +302,8 @@
 }
 #dineroCae{
     position: absolute;
-    width: max-content;
-    height: max-content;
+    width: 100vw;
+    height: 100vh;
     margin-top: auto;
     margin-left: auto;
 }

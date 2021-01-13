@@ -1,5 +1,8 @@
+// INICIALIZO VARIABLE PARA INICAR ANIMACION
 var habilitarAnimacion = false;
+// INICIALIZO VARIABLE CLICK DE MONSTRUO ANIMADO
 var cantidadClickMonstruoPiñera = 0;
+// DEFINO CONSTANTE DE TIEMPO EN MS PARA ANIMACION DE MONEDAS SOBRE MONSTRUO ANIMADO
 const tiempoMostrarDinero = 2000 //definir tiempo con gift
 
 // FUNCION ANIMACION CUANDO BOTAS LA BASURA
@@ -41,7 +44,7 @@ function drop(event, target) {
     document.getElementById(data).style.visibility="hidden";
     // console.log(contador);
     contador += 1;
-    if (contador>=4){
+    if (contador>=26){
         habilitarAnimacion = true;
         // CAMBIOS DE AUDIO 
         // REPRODUCIOMOS EFECTO TODA LA BASURA ELIMINADA
@@ -63,7 +66,7 @@ function drop(event, target) {
     audio.currentTime = 2;
     audio.play();
 }
-
+// FUNCION LOGICA SOBRE CLICK ANIMADO
 function clickMonstruoPiñera(){
     if(cantidadClickMonstruoPiñera<=2){
         // MOSTRAMOS ANIMACION DINERO CAE

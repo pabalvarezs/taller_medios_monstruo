@@ -1,5 +1,8 @@
-// FUNCION ANIMACION CUANDO BOTAS LA BASURA
 var habilitarAnimacion = false;
+var cantidadClickMonstruoPiñera = 0;
+const tiempoMostrarDinero = 2000 //definir tiempo con gift
+
+// FUNCION ANIMACION CUANDO BOTAS LA BASURA
 function botonMonstruoLimpio(){
     if(habilitarAnimacion == true){
         // ESCONDEMOS LOS OBJETOS DE LA PAG PARA MOSTRA VIDEO
@@ -11,12 +14,12 @@ function botonMonstruoLimpio(){
         }
         // MOSTRAMOS ANIMACION MONSTRUO
         document.getElementById("video_botar_basura").className = "mostrar";
-        // MOSTRAMOS ANIMACION DINERO CAE
-        document.getElementById("dineroCae").className = "mostrar";
         // REPRODUCIMOS AUDIO
         let audio3 = document.getElementById("audioParte2");
         audio3.play();
-        document.getElementById("audioParte2").loop = true; 
+        document.getElementById("audioParte2").loop = true;
+        //EJECUTO FUNCION DINERO CAE Y LINK PARTE 3
+        clickMonstruoPiñera();         
     }
     else{
         console.log("ESTA FUNCION SOLO ESTÁ HABILITADA SI LIMPIASTE TODA LA BASURA")
@@ -59,6 +62,26 @@ function drop(event, target) {
     let audio = document.getElementById("botarAudio");
     audio.currentTime = 2;
     audio.play();
+}
+
+function clickMonstruoPiñera(){
+    if(cantidadClickMonstruoPiñera<=2){
+        // MOSTRAMOS ANIMACION DINERO CAE
+        document.getElementById("dineroCae").className = "mostrar";
+        setTimeout(function dieneroDesaparece(){
+            document.getElementById("dineroCae").className = "oculto";
+        },tiempoMostrarDinero);
+        console.log(cantidadClickMonstruoPiñera);
+    }
+    else{
+
+        // href
+    }
+
+
+
+
+
 }
  
 

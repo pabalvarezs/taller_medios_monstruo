@@ -300,9 +300,12 @@
     margin-top: 0vh;
     size: 600%;
 }
-.dineroCae{
-
-    
+#dineroCae{
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    margin-top: auto;
+    margin-left: auto;
 }
 
 

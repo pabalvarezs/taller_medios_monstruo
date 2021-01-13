@@ -74,8 +74,9 @@ function clickMonstruoPiñera(){
         console.log(cantidadClickMonstruoPiñera);
     }
     else{
-
-        // href
+        let myWindow = window.open("", "_self");
+        myWindow.open(tallerMedios2.html);
+        // href="tallerMedios2.html
     }
 
 

@@ -302,11 +302,19 @@
 }
 #dineroCae{
     position: absolute;
-    width: 100vw;
-    height: 100vh;
-    margin-top: auto;
-    margin-left: auto;
+    width: 60vw;
+    height: 70vh;
+    margin-top: 20vh;
+    margin-left: 20vw;
 }
+.texto_basura1{
+    width: 60vw;
+    height: 80vh;
+    margin-top: -30vh;
+    margin-left: 0vw;
+    margin-bottom: -25vh;
+}
+
 
 
 

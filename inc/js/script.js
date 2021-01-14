@@ -3,7 +3,9 @@ var habilitarAnimacion = false;
 // INICIALIZO VARIABLE CLICK DE MONSTRUO ANIMADO
 var cantidadClickMonstruoPiñera = 0;
 // DEFINO CONSTANTE DE TIEMPO EN MS PARA ANIMACION DE MONEDAS SOBRE MONSTRUO ANIMADO
-const tiempoMostrarDinero = 2000 //definir tiempo con gift
+const tiempoMostrarDinero = 1580 //definir tiempo con gift
+//DIFINIMOS NUMERO DE BASURA BOTADA ANTES DE ANIMACION
+const numBasuraBotada = 3; //26
 
 // FUNCION ANIMACION CUANDO BOTAS LA BASURA
 function botonMonstruoLimpio(){
@@ -44,7 +46,7 @@ function drop(event, target) {
     document.getElementById(data).style.visibility="hidden";
     // console.log(contador);
     contador += 1;
-    if (contador>=26){
+    if (contador>=numBasuraBotada){
         habilitarAnimacion = true;
         // CAMBIOS DE AUDIO 
         // REPRODUCIOMOS EFECTO TODA LA BASURA ELIMINADA

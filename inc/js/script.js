@@ -19,6 +19,8 @@ function botonMonstruoLimpio(){
         }
         // MOSTRAMOS ANIMACION MONSTRUO
         document.getElementById("video_botar_basura").className = "mostrar";
+        // MOSTRAMOS TITULO
+        document.getElementById("tituloOasis").className = "mostrar";
         // REPRODUCIMOS AUDIO
         let audio3 = document.getElementById("audioParte2");
         audio3.play();
@@ -59,6 +61,9 @@ function drop(event, target) {
 
         // MOSTRAMOS CURSOR EN MONSTRUO
         document.getElementById("divMonstruo").classList.add("cursor");
+        //AGREGO VISITANTE GANADOR CLICKEA EL MONSTUO
+        let myWindow1 = window.open( "popupVisitante.html", "Haz Click en el Monstruo", "width=300,height=250, top=250,left=200, menubar=no, scrollbars=no, resizable=no");
+
     }        
     else{
         habilitarAnimacion = false;

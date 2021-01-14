@@ -14,3 +14,7 @@
     background-image: url(../../img/parte3/monstruo.webp);
     background-repeat: no-repeat;
 }
+#popupVisitante{
+    background-image: url(../../img/visitante_ganador.gif);
+    background-repeat: no-repeat;
+}

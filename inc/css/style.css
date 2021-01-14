@@ -302,10 +302,10 @@
 }
 #dineroCae{
     position: absolute;
-    width: 60vw;
+    width: 50vw;
     height: 70vh;
-    margin-top: 20vh;
-    margin-left: 20vw;
+    margin-top: 15vh;
+    margin-left: 30vw;
 }
 .texto_basura1{
     width: 60vw;
@@ -313,6 +313,14 @@
     margin-top: -30vh;
     margin-left: 0vw;
     margin-bottom: -25vh;
+}
+#tituloOasis{
+    position: absolute;
+    width: 70vw;
+    height: 30vh;
+    margin-top: 65vh;
+    margin-left: 15vw;
+    margin-bottom: 0vh;
 }
 
 

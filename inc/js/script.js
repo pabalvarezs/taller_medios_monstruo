@@ -5,7 +5,7 @@ var cantidadClickMonstruoPiñera = 0;
 // DEFINO CONSTANTE DE TIEMPO EN MS PARA ANIMACION DE MONEDAS SOBRE MONSTRUO ANIMADO
 const tiempoMostrarDinero = 1580 //definir tiempo con gift
 //DIFINIMOS NUMERO DE BASURA BOTADA ANTES DE ANIMACION
-const numBasuraBotada = 3; //26
+const numBasuraBotada = 26; //26
 
 // FUNCION ANIMACION CUANDO BOTAS LA BASURA
 function botonMonstruoLimpio(){
